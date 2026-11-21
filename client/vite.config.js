@@ -4,6 +4,6 @@ export default defineConfig({
   plugins: [react()],
   server: {
     port: 5173,
-    proxy: { "/api": "https://bizledger-finance-website.onrender.com/" },
+    proxy: { "/api": "https://bizledger-finance-website.onrender.com/api" },
   },
 });
